@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lodys clicker</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="game">
+            <img src="https://yt3.googleusercontent.com/UbXuO3uEw-_tHlS2i_TNApNK9QcB5syN4mNvQ8cr1rUaDUv6sCUOdWUgTvhWpYkSzR1CYr-kFQ=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj" alt="Lodys banner" id="lodys-banner">
+            <div id="skibidi-toilet-minigame" class="hidden">
+                <img src="https://kagi.com/proxy/toilet_PNG17713.png?c=_k2SEP71vubeNJlITPQhEc9tulmk5ybpyxvJ3jC4hYs3oV3cTcS0Rmso-ixIwBPey5M89C05aKOUF1gqLt-RUA%3D%3D" alt="Toilet" id="toilet">
+                <img src="https://kagi.com/proxy/latest?c=LsHiRSPxhD29sXqLhdI0j1EsQ98nx-H1fY71FBuiA4m18Roywk-R00zmqKL5u3PTUNKdYONuOuVaYOcaeHJZvVEQMWwSWzcRpPGLLS1uE5Z87nyYHpvtQaj9POFiENPvdgIGTxgHN_qYaZYG-iP5StJihU35425fMioiGpFFN2XqzaRtz3YIkmgT_gxQtJbEqDSESowoD3p0xlZ3i1g64g%3D%3D" alt="skibidi"  id="skibidi" class="hidden">
+
+                <div id="skibidi-toilet-minigame-controls">
+                    <button id="skibidi-toilet-minigame-button">Click</button>
+                </div>
+            </div>
+            <div class="main-content">
+                <div id="notice-lodys" class="">
+                    <button id="close-notice" class="close-button">&times;</button>
+                    <h3>Who is this?</h3>
+                    <div><img src="https://yt3.ggpht.com/Kd5f2nHpug3C_Qqm4oSNxY6KuT2NkUaeXYCWF0wwfRPQ4RGRsMygO7RPlZlD2Ahju2PT5Y-mhw=s176-c-k-c0x00ffffff-no-rj-mo" alt="Lodys"></div>
+                    <div><p>Lodys is famous Youtuber! Clicking on him makes him happy and rich!</p></div>
+                </div>
+                <div id="click-area">
+                    <div id="click-target">
+                        <button id="click-button">Click me</button>
+                    </div>
+                    <div id="click-counter"></div>
+                </div>
+                <div id="upgrades" class="hidden">
+                    <div id="upgrade-click-power" class="upgrade-button" data-cost="10" data-multiplier="2">
+                        <span class="upgrade-name">Upgrade click power</span>
+                        <span class="upgrade-cost">Cost: 20 clicks</span>
+                    </div>
+                    <div id="upgrade-auto-click" class="upgrade-button" data-cost="50" data-cps="2">
+                        <span class="upgrade-name">Auto Clicker</span>
+                        <span class="upgrade-cost">Cost: 50 clicks</span>
+                    </div>
+                    <div id="upgrade-subscribe" class="upgrade-button" data-cost="100">
+                        <span class="upgrade-name">Subscribe - Special Rewards</span>
+                        <span class="upgrade-cost">Cost: 100 clicks</span>
+                    </div>
+                    <div id="upgrade-shorts" class="upgrade-button" data-cost="10">
+                        <span class="upgrade-name">Unlock Lodys Shorts</span>
+                        <span class="upgrade-cost">Cost: 1000 clicks</span>
+                    </div>
+                    <div id="upgrade-skibidi-toilet-minigame" class="upgrade-button" data-cost="3000">
+                        <span class="upgrade-name">Unlock Skibidi Toilet Minigame</span>
+                        <span class="upgrade-cost">Cost: 3000 clicks</span>
+                    </div>
+                </div>
+            </div>
+            <div id="shorts" class="hidden">
+                <video id="video-player" controls>
+                    <source src="" type="video/mp4">
+                    Your browser does not support the video element.
+                </video>
+                <div class="video-controls">
+                    <button id="next-video" class="video-button">Next Video</button>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
